@@ -24,7 +24,7 @@ public class login {
 
 	@Before
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\unsubme\\src\\test\\java\\com\\bigmantra\\unsubme\\resources\\chromedriver.exe");
 		this.driver = new ChromeDriver();
 		// System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
 		// WebDriver driver = new FirefoxDriver();
